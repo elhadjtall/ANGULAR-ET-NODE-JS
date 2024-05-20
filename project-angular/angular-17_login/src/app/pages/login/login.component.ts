@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  // on importe le login
+  login
+}
+
+export class Login {
+  {
+    EmailId: string;
+    Password: string;
+    // On creer le constructor 
+    constructor() {
+      this.EmailId = '';
+      this.Password = '';
+    }
+  }
 }
